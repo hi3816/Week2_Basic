@@ -130,8 +130,8 @@ TextureImporter:
         y: 1233
         width: 119
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: mushmom_idle_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 1090
+        x: 5
+        y: 1092
         width: 119
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: mushmom_idle_2
       rect:
         serializedVersion: 2
-        x: 134
+        x: 136
         y: 1090
         width: 120
         height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,15 +186,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_jump_1
+      name: mushmom_idle_3
       rect:
         serializedVersion: 2
-        x: 271
+        x: 273
         y: 1090
         width: 118
         height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,15 +207,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_jump_2
+      name: mushmom_idle_4
       rect:
         serializedVersion: 2
-        x: 415
+        x: 420
         y: 1090
         width: 118
         height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,15 +228,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_jump_3
+      name: mushmom_idle_5
       rect:
         serializedVersion: 2
         x: 551
         y: 1091
         width: 118
         height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_jump_4
+      name: mushmom_jump
       rect:
         serializedVersion: 2
         x: 5
@@ -273,7 +273,7 @@ TextureImporter:
       name: mushmom_7
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 796
         width: 118
         height: 140
@@ -291,15 +291,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_attack_1
+      name: mushmom_jump_1
       rect:
         serializedVersion: 2
         x: 5
         y: 657
         width: 118
         height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,15 +312,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_attack_2
+      name: mushmom_jump_2
       rect:
         serializedVersion: 2
         x: 151
         y: 655
         width: 118
         height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,15 +333,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_attack_3
+      name: mushmom_jump_3
       rect:
         serializedVersion: 2
-        x: 302
+        x: 305
         y: 657
         width: 118
         height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,15 +354,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_attack_4
+      name: mushmom_jump_4
       rect:
         serializedVersion: 2
         x: 446
         y: 655
         width: 118
         height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,15 +375,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_attack_5
+      name: mushmom_jump_5
       rect:
         serializedVersion: 2
-        x: 588
+        x: 594
         y: 662
         width: 120
         height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1257,15 +1257,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_54
+      name: mushmom_attack_1
       rect:
         serializedVersion: 2
         x: 14
         y: 150
         width: 120
         height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1278,15 +1278,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_55
+      name: mushmom_attack_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 166
         y: 143
         width: 166
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1299,15 +1299,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_56
+      name: mushmom_attack_3
       rect:
         serializedVersion: 2
         x: 353
         y: 143
         width: 174
         height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,15 +1341,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_58
+      name: mushmom_attack_4
       rect:
         serializedVersion: 2
         x: 589
         y: 147
         width: 130
         height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1404,15 +1404,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_61
+      name: mushmom_attack_5
       rect:
         serializedVersion: 2
         x: 11
         y: 30
         width: 128
         height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1425,15 +1425,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mushmom_62
+      name: mushmom_attack_6
       rect:
         serializedVersion: 2
         x: 201
         y: 33
         width: 153
         height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1813,15 +1813,9 @@ TextureImporter:
       mushmom_51: -357678087
       mushmom_52: 950661564
       mushmom_53: -329745598
-      mushmom_54: -1870307563
-      mushmom_55: -2035407285
-      mushmom_56: 2003478729
       mushmom_57: -1314625504
-      mushmom_58: -168729426
       mushmom_59: 1563940346
       mushmom_60: -610999604
-      mushmom_61: -1907431712
-      mushmom_62: 1581690692
       mushmom_63: -1190089831
       mushmom_64: 1994619738
       mushmom_65: -260692859
@@ -1838,17 +1832,23 @@ TextureImporter:
       mushmom_75: -374884763
       mushmom_76: -1424026518
       mushmom_77: -881438726
-      mushmom_attack_1: -445833090
-      mushmom_attack_2: 1390320872
-      mushmom_attack_3: -199810184
-      mushmom_attack_4: 984795864
-      mushmom_attack_5: 1748831268
+      mushmom_attack_1: -1870307563
+      mushmom_attack_2: -2035407285
+      mushmom_attack_3: 2003478729
+      mushmom_attack_4: -168729426
+      mushmom_attack_5: -1907431712
+      mushmom_attack_6: 1581690692
       mushmom_idle_1: 1010489924
       mushmom_idle_2: -1133420806
-      mushmom_jump_1: -585261820
-      mushmom_jump_2: 1964370863
-      mushmom_jump_3: 670061463
-      mushmom_jump_4: 660378697
+      mushmom_idle_3: -585261820
+      mushmom_idle_4: 1964370863
+      mushmom_idle_5: 670061463
+      mushmom_jump: 660378697
+      mushmom_jump_1: -199810184
+      mushmom_jump_2: 660378697
+      mushmom_jump_3: 1748831268
+      mushmom_jump_4: 984795864
+      mushmom_jump_5: 984795864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
