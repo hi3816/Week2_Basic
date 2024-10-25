@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ScoreText : MonoBehaviour
 {
@@ -11,12 +12,13 @@ public class ScoreText : MonoBehaviour
     void Awake()
     {
         scoreText = GetComponent<TextMeshProUGUI>();
-        scoreButton.button.onClick.AddListener(RefreshUI);
+        scoreButton.onScoreChanged += RefreshUI;
+
     }
 
-    void RefreshUI() 
+    void RefreshUI(int score) 
     {
-        scoreText.text = scoreButton.score.ToString();
+        scoreText.text = score.ToString();
     }
 
 }

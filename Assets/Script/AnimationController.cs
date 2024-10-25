@@ -23,14 +23,10 @@ public class AnimationController : MonoBehaviour
     // Update is called once per frame
     private void OnMouseDown()
     {
-        if (animationVariable > 1)
-        {
-            animationVariable = 0;
-        }
-        else
-        {
-            animationVariable++;
-        }
+        animationVariable = (animationVariable + 1) % 3;
+
+        //animationVariable++;
+        //animationVariable = (animationVariable % 2 == 1) ? 0 : animationVariable;
         _animator.SetInteger("State", animationVariable);
         Debug.Log($"animationVariable : {animationVariable}");
         
